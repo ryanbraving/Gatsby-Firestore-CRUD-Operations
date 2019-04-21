@@ -5,7 +5,7 @@ import firebase from "firebase"
 import "firebase/app"
 import "firebase/firestore"
 // require("firebase/firestore");
-// global.XMLHttpRequest = require("xhr2")
+global.XMLHttpRequest = require("xhr2")
 
 var config = {
   apiKey: process.env.GATSBY_FIREBASE_API_KEY,
